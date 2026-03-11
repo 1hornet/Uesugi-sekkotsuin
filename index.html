@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上杉接骨院｜静岡市清水区</title>
+    
+    <!-- 美しい日本語フォントを読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- アイコンを表示するツール（絶対に崩れない安定版） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- デザインを整えるツール -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Noto Sans JP"', 'sans-serif'],
+              serif: ['"Noto Serif JP"', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    
+    <style>
+        .break-keep { word-break: keep-all; }
+        .text-shadow-md { text-shadow: 1px 2px 4px rgba(0,0,0,0.5); }
+        .text-shadow { text-shadow: 1px 1px 3px rgba(0,0,0,0.8); }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="min-h-screen bg-[#FDFBF7] font-sans text-stone-800 selection:bg-emerald-100 selection:text-emerald-900 leading-relaxed break-keep">
+
+  <!-- Header -->
+  <header id="main-header" class="bg-white sticky top-0 z-50 transition-all duration-300 border-b-2 border-emerald-800 py-3 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center">
+        <div class="flex-shrink-0 flex items-center">
+          <div class="w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center mr-3 border border-stone-200 bg-white rounded-md overflow-hidden shadow-sm">
+            <img src="image~2.jpg" alt="上杉接骨院 ロゴ" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/100x100?text=Logo'" />
+          </div>
+          <div>
+            <p class="text-xs font-bold text-emerald-800 tracking-widest mb-0.5 hidden sm:block">静岡市清水区の接骨院</p>
+            <h1 class="text-2xl sm:text-3xl font-serif font-bold tracking-widest text-stone-900">上杉接骨院</h1>
+          </div>
+        </div>
+        <nav class="hidden lg:flex space-x-8 items-center">
+          <a href="#about" class="text-sm font-bold text-stone-600 hover:text-emerald-700 transition-colors">当院について</a>
+          <a href="#features" class="text-sm font-bold text-stone-600 hover:text-emerald-700 transition-colors">特徴・院内</a>
+          <a href="#approach" class="text-sm font-bold text-stone-600 hover:text-emerald-700 transition-colors">施術の流れ</a>
+          <a href="#hours" class="text-sm font-bold text-stone-600 hover:text-emerald-700 transition-colors">アクセス</a>
+          <a href="tel:0543672567" class="flex items-center text-white font-bold bg-emerald-800 px-6 py-3 rounded-full hover:bg-emerald-700 transition-colors shadow-sm hover:shadow-md transform hover:-translate-y-0.5">
+            <i class="fa-solid fa-phone mr-2"></i>
+            054-367-2567
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-[85vh] min-h-[600px] flex items-center overflow-hidden bg-stone-900">
+    <div class="absolute inset-0 w-full h-full opacity-60 mix-blend-overlay">
+       <img src="SNOW_20260226_051942_689.jpg" alt="広々と清潔な施術室" class="w-full h-full object-cover object-center" onerror="this.src='https://via.placeholder.com/1200x800?text=Top+Image'" />
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-r from-stone-900/95 via-stone-900/70 to-transparent"></div>
+    
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+      <div class="max-w-2xl pl-0 sm:pl-6 border-l-0 sm:border-l-4 border-amber-500">
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="inline-block py-1.5 px-4 bg-emerald-800 text-white text-xs sm:text-sm font-bold tracking-widest rounded-full shadow-sm">
+            ほねつぎ・接骨
+          </span>
+          <span class="inline-block py-1.5 px-4 bg-white text-emerald-900 text-xs sm:text-sm font-bold tracking-widest rounded-full shadow-sm">
+            健康保険等取扱
+          </span>
+        </div>
+        
+        <h2 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-white tracking-widest mb-6 leading-tight text-shadow-md">
+          <span class="block text-xl md:text-2xl mb-4 text-amber-400 font-sans tracking-widest">静岡市清水区の接骨院</span>
+          ケガと痛みに<br/>真摯に向き合う。
+        </h2>
+
+        <p class="text-stone-100 text-base sm:text-lg md:text-xl leading-relaxed mb-10 font-medium max-w-lg bg-stone-900/40 p-4 rounded-lg backdrop-blur-sm border border-stone-600/50">
+          <span class="inline-block">国家資格を持つ専門家が、</span>
+          <span class="inline-block">骨折・脱臼・打撲・捻挫などの</span>
+          <span class="inline-block text-amber-300 font-bold">急なケガや痛みの原因</span><span class="inline-block">を見極め、</span>
+          <span class="inline-block">適切な処置を行います。</span>
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="tel:0543672567" class="bg-amber-500 text-stone-900 font-bold px-8 py-4 rounded-full shadow-lg hover:bg-amber-400 hover:shadow-xl transition-all text-center flex items-center justify-center tracking-widest transform hover:-translate-y-1">
+            <i class="fa-solid fa-phone mr-2 text-lg"></i>
+            お電話でお問い合わせ
+          </a>
+          <a href="#hours" class="bg-white/10 backdrop-blur-sm text-white border-2 border-white/50 font-bold px-8 py-4 rounded-full hover:bg-white hover:text-stone-900 hover:border-white transition-all text-center tracking-widest">
+            受付時間・アクセス
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Badges -->
+  <section class="bg-white shadow-md relative z-20 -mt-8 mx-4 sm:mx-8 lg:max-w-6xl lg:mx-auto rounded-xl border border-stone-100 p-2 sm:p-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4 divide-x divide-stone-100">
+      <div class="flex flex-col items-center justify-center p-3 text-center">
+        <i class="fa-solid fa-calendar-check text-2xl sm:text-3xl text-emerald-700 mb-2"></i>
+        <span class="text-xs sm:text-sm font-bold text-stone-800">予約不要<br/><span class="text-[10px] sm:text-xs text-stone-500 font-normal">直接お越しください</span></span>
+      </div>
+      <div class="flex flex-col items-center justify-center p-3 text-center">
+        <i class="fa-solid fa-car text-2xl sm:text-3xl text-emerald-700 mb-2"></i>
+        <span class="text-xs sm:text-sm font-bold text-stone-800">専用駐車場完備<br/><span class="text-[10px] sm:text-xs text-stone-500 font-normal">お車でも安心</span></span>
+      </div>
+      <div class="flex flex-col items-center justify-center p-3 text-center">
+        <i class="fa-solid fa-shield-halved text-2xl sm:text-3xl text-emerald-700 mb-2"></i>
+        <span class="text-xs sm:text-sm font-bold text-stone-800">国家資格者対応<br/><span class="text-[10px] sm:text-xs text-stone-500 font-normal">柔道整復師会会員</span></span>
+      </div>
+      <div class="flex flex-col items-center justify-center p-3 text-center">
+        <i class="fa-solid fa-heart-pulse text-2xl sm:text-3xl text-emerald-700 mb-2"></i>
+        <span class="text-xs sm:text-sm font-bold text-stone-800">健康保険等取扱<br/><span class="text-[10px] sm:text-xs text-stone-500 font-normal">労災・交通事故対応</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Information -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-16">
+    <div class="bg-emerald-50 rounded-xl p-4 sm:p-6 flex flex-col md:flex-row md:items-center gap-4 border border-emerald-100">
+      <div class="flex items-center text-emerald-800 font-bold shrink-0 bg-white px-3 py-1.5 rounded-full shadow-sm text-sm">
+        <i class="fa-solid fa-circle-info mr-2"></i>
+        お知らせ
+      </div>
+      <div class="flex-grow pl-2 md:pl-4">
+        <ul class="space-y-2">
+          <li class="flex flex-col sm:flex-row sm:items-center text-sm font-medium">
+            <span class="text-stone-500 w-28 shrink-0 font-serif tracking-widest text-xs sm:text-sm">2026.03.04</span>
+            <span class="text-stone-800"><span class="inline-block">ホームページを</span><span class="inline-block">開設いたしました。</span></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section id="about" class="py-16 md:py-24 scroll-mt-20 relative overflow-hidden">
+    <div class="absolute top-0 right-0 -mt-20 -mr-20 w-64 h-64 bg-emerald-50 rounded-full opacity-50 blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-amber-50 rounded-full opacity-50 blur-3xl"></div>
+    
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <h3 class="text-2xl md:text-3xl lg:text-4xl font-serif font-bold text-emerald-900 leading-relaxed mb-10 tracking-widest">
+        <span class="inline-block">ケガや痛みに</span><br class="sm:hidden" />
+        <span class="inline-block">真摯に向き合う接骨院。</span>
+      </h3>
+      
+      <div class="space-y-8 text-stone-800 text-base md:text-lg leading-loose font-medium max-w-2xl mx-auto bg-white p-8 sm:p-12 rounded-2xl shadow-sm border border-stone-100">
+        <p>
+          <span class="inline-block">当院では、患者様の症状に</span><br />
+          <span class="inline-block">ひとつひとつ丁寧に向き合い、</span><br />
+          <span class="inline-block">根拠に基づいた施術を行っています。</span>
+        </p>
+        <p>
+          <span class="inline-block">落ち着いた院内環境の中で、</span><br />
+          <span class="inline-block">安心して施術を受けていただけます。</span>
+        </p>
+      </div>
+      
+      <div class="w-12 h-1.5 bg-amber-500 mx-auto mt-12 rounded-full"></div>
+    </div>
+  </section>
+
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-32">
+    
+    <!-- Features & Gallery -->
+    <section id="features" class="scroll-mt-24">
+      <div class="text-center mb-16">
+        <p class="text-amber-600 font-bold text-sm tracking-widest mb-3">REASONS</p>
+        <h3 class="text-2xl md:text-3xl font-serif font-bold text-stone-900 tracking-widest">当院の3つの特徴</h3>
+        <div class="w-12 h-1 bg-emerald-800 mx-auto mt-6 rounded-full"></div>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8 mb-20">
+        <!-- 特徴1 -->
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-100 text-center hover:shadow-md transition-all relative group transform hover:-translate-y-1">
+          <div class="w-20 h-20 bg-emerald-50 text-emerald-700 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-emerald-700 group-hover:text-white transition-colors duration-300">
+            <i class="fa-solid fa-shield-halved text-4xl"></i>
+          </div>
+          <h4 class="text-[19px] font-serif font-bold text-stone-900 mb-6 tracking-wide">安心の国家資格者対応</h4>
+          <p class="text-stone-600 leading-loose text-sm font-medium">
+            <span class="inline-block">当院は</span><span class="inline-block font-bold text-emerald-700">「静岡県柔道整復師会」</span><span class="inline-block">の会員です。</span>
+            <span class="inline-block">厚生労働大臣認可の</span><span class="inline-block">国家資格を持つ専門家が、</span>
+            <span class="inline-block">確かな知識と技術で</span><span class="inline-block">責任を持って</span><span class="inline-block">担当いたします。</span>
+          </p>
+        </div>
+        <!-- 特徴2 -->
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-100 text-center hover:shadow-md transition-all relative group transform hover:-translate-y-1">
+          <div class="w-20 h-20 bg-emerald-50 text-emerald-700 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-emerald-700 group-hover:text-white transition-colors duration-300">
+            <i class="fa-solid fa-user-check text-4xl"></i>
+          </div>
+          <h4 class="text-[19px] font-serif font-bold text-stone-900 mb-6 tracking-wide">丁寧な問診と状態説明</h4>
+          <p class="text-stone-600 leading-loose text-sm font-medium">
+            <span class="inline-block">痛みの原因は</span><span class="inline-block">どこにあるのか、</span>
+            <span class="inline-block">どのような処置を</span><span class="inline-block">行うのかを</span><span class="inline-block">分かりやすくご説明します。</span>
+            <span class="inline-block">ご納得いただいてから</span><span class="inline-block">施術に入ります。</span>
+          </p>
+        </div>
+        <!-- 特徴3 -->
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-100 text-center hover:shadow-md transition-all relative group transform hover:-translate-y-1">
+          <div class="w-20 h-20 bg-emerald-50 text-emerald-700 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-emerald-700 group-hover:text-white transition-colors duration-300">
+            <i class="fa-solid fa-wand-magic-sparkles text-4xl"></i>
+          </div>
+          <h4 class="text-[19px] font-serif font-bold text-stone-900 mb-6 tracking-wide">充実した設備と清潔な院内</h4>
+          <p class="text-stone-600 leading-loose text-sm font-medium">
+            <span class="inline-block">各種物理療法機器を</span><span class="inline-block">完備し、</span>
+            <span class="inline-block">症状に合わせた</span><span class="inline-block">的確なアプローチが可能です。</span>
+            <span class="inline-block">また、ベッドやタオルの交換など</span>
+            <span class="inline-block">衛生管理を徹底しています。</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- 院内の様子 -->
+      <div class="bg-white rounded-3xl p-6 md:p-10 shadow-sm border border-stone-100">
+        <div class="text-center mb-10">
+           <h3 class="text-2xl font-serif font-bold tracking-widest text-stone-900 mb-4 flex items-center justify-center">
+             <i class="fa-solid fa-camera text-xl mr-3 text-emerald-700"></i>院内の雰囲気
+           </h3>
+           <p class="text-stone-600 text-sm font-medium leading-loose">
+             <span class="inline-block">落ち着いた院内環境の中で、</span>
+             <span class="inline-block">安心して施術を受けていただけます。</span>
+           </p>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
+          <div class="col-span-2 row-span-2 overflow-hidden bg-stone-100 rounded-2xl aspect-square md:aspect-auto relative group">
+            <img src="SNOW_20260226_051942_689.jpg" alt="広々とした清潔な施術室" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onerror="this.src='https://via.placeholder.com/800x800?text=Image'" />
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-transparent to-transparent opacity-80"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
+              <p class="font-bold text-white text-base sm:text-lg tracking-wider text-shadow">清潔な施術スペース</p>
+            </div>
+          </div>
+          <div class="overflow-hidden bg-stone-100 rounded-2xl aspect-square relative group">
+            <img src="SNOW_20260226_052006_821.jpg" alt="受付と静岡県柔道整復師会会員証" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onerror="this.src='https://via.placeholder.com/400x400?text=Image'" />
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-transparent to-transparent opacity-80"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-3 sm:p-4">
+              <p class="text-xs sm:text-sm font-bold text-white tracking-wide text-shadow">受付・柔道整復師会会員</p>
+            </div>
+          </div>
+          <div class="overflow-hidden bg-stone-100 rounded-2xl aspect-square relative group">
+            <img src="OMG15101825019A1947_TP_V.jpg" alt="テーピングによる固定処置" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onerror="this.src='https://via.placeholder.com/400x400?text=Image'" />
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-transparent to-transparent opacity-80"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-3 sm:p-4">
+              <p class="text-xs sm:text-sm font-bold text-white tracking-wide text-shadow">確かな技術での処置</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Treatment Approach -->
+    <section id="approach" class="scroll-mt-24">
+      <div class="text-center mb-16">
+        <p class="text-amber-600 font-bold text-sm tracking-widest mb-3">APPROACH</p>
+        <h3 class="text-2xl md:text-3xl font-serif font-bold text-stone-900 tracking-widest">当院の施術について</h3>
+        <div class="w-12 h-1 bg-emerald-800 mx-auto mt-6 rounded-full"></div>
+      </div>
+
+      <div class="space-y-12 sm:space-y-20">
+        <!-- 手技療法 -->
+        <div class="flex flex-col md:flex-row gap-8 items-center bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100">
+          <div class="w-full md:w-1/2 h-64 md:h-auto self-stretch relative">
+            <img src="OMG15101847019A2342_TP_V.jpg" alt="手技療法" class="w-full h-full object-cover absolute inset-0" onerror="this.src='https://via.placeholder.com/600x400?text=Image'" />
+          </div>
+          <div class="w-full md:w-1/2 p-8 md:p-12">
+            <div class="flex items-center mb-6">
+              <div class="w-1.5 bg-emerald-700 h-6 mr-3 rounded-full"></div>
+              <h4 class="text-2xl font-serif font-bold text-stone-900 tracking-wider">手技療法</h4>
+            </div>
+            <div class="text-stone-700 leading-loose space-y-5 text-sm md:text-base font-medium">
+              <p>
+                <span class="inline-block">柔道整復術は、</span>
+                <span class="inline-block">骨折・脱臼・打撲・捻挫・挫傷などの外傷に対し、</span><br class="hidden sm:block" />
+                <span class="inline-block">整復・固定・後療を行う</span><span class="inline-block font-bold text-stone-900">伝統ある施術法</span><span class="inline-block">です。</span>
+              </p>
+              <p>
+                <span class="inline-block">当院では、</span><span class="inline-block">視診・触診・各種徒手検査を</span><span class="inline-block">通じて</span>
+                <span class="inline-block">損傷部位の状態を</span><span class="inline-block">丁寧に評価し、</span>
+                <span class="inline-block">その状態に応じた</span><span class="inline-block">適切な処置を行います。</span>
+              </p>
+              <div class="bg-stone-50 p-4 rounded-xl border border-stone-200 mt-4">
+                <p class="break-words font-bold text-emerald-900">
+                  組織の緊張や関節の動きを確認し、<br />
+                  回復を妨げない範囲で調整を行い、<br />
+                  自然治癒力を引き出していきます。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 物理療法 -->
+        <div class="flex flex-col md:flex-row-reverse gap-8 items-center bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-100">
+          <div class="w-full md:w-1/2 h-64 md:h-auto self-stretch relative">
+            <img src="SNOW_20260226_051957_153.jpg" alt="物理療法" class="w-full h-full object-cover absolute inset-0" onerror="this.src='https://via.placeholder.com/600x400?text=Image'" />
+          </div>
+          <div class="w-full md:w-1/2 p-8 md:p-12">
+            <div class="flex items-center mb-6">
+              <div class="w-1.5 bg-amber-500 h-6 mr-3 rounded-full"></div>
+              <h4 class="text-2xl font-serif font-bold text-stone-900 tracking-wider">物理療法</h4>
+            </div>
+            <div class="text-stone-700 leading-loose space-y-5 text-sm md:text-base font-medium">
+              <p>
+                <span class="inline-block">当院では、</span>
+                <span class="inline-block">電気療法や</span><span class="inline-block">温熱療法、</span><span class="inline-block">超音波療法などの</span>
+                <span class="inline-block font-bold text-stone-900">各種物理療法</span><span class="inline-block">を行っています。</span>
+              </p>
+              <p>
+                <span class="inline-block">痛みの軽減や</span><span class="inline-block">血流の改善を図り、</span>
+                <span class="inline-block">回復しやすい</span><span class="inline-block">身体づくりを</span><span class="inline-block">サポートします。</span>
+              </p>
+              <p>
+                <span class="inline-block">症状や状態に合わせて、</span>
+                <span class="inline-block">手技療法と組み合わせながら</span>
+                <span class="inline-block text-emerald-800 font-bold">最も適切な方法</span><span class="inline-block">を選択いたします。</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Flow -->
+    <section id="flow" class="scroll-mt-24">
+      <div class="text-center mb-16">
+         <p class="text-amber-600 font-bold text-sm tracking-widest mb-3">FLOW</p>
+        <h3 class="text-2xl md:text-3xl font-serif font-bold text-stone-900 tracking-wider md:tracking-widest">ご来院から施術までの流れ</h3>
+        <div class="w-12 h-1 bg-emerald-800 mx-auto mt-6 rounded-full"></div>
+        <p class="text-stone-600 mt-6 max-w-2xl mx-auto font-medium leading-loose">
+          <span class="inline-block font-bold text-emerald-800">初めての方でも安心して</span><span class="inline-block">ご来院いただけるよう、</span>
+          <span class="inline-block">当院での基本的なステップを</span><span class="inline-block">ご紹介します。</span>
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-4 gap-6">
+        <!-- Step 1 -->
+        <div class="bg-white rounded-2xl shadow-sm overflow-hidden flex flex-col h-full border border-stone-100 relative pt-6">
+          <div class="absolute top-0 left-0 w-full h-1.5 bg-emerald-700"></div>
+          <div class="absolute top-4 left-4 w-8 h-8 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center font-bold text-sm z-10 shadow-sm">1</div>
+          <div class="h-40 bg-stone-200 relative overflow-hidden mt-2 mx-4 rounded-xl">
+            <img src="SNOW_20260226_052006_821.jpg" alt="流れ 1" class="w-full h-full object-cover grayscale-[10%]" onerror="this.src='https://via.placeholder.com/400x300?text=Image'" />
+          </div>
+          <div class="p-5 flex-grow flex flex-col bg-white">
+            <h4 class="text-[16px] font-serif font-bold text-stone-900 mb-3 border-b border-stone-100 pb-3 tracking-wide flex items-center">
+               <i class="fa-solid fa-clipboard-list mr-2 text-emerald-700"></i> 受付・予診票記入
+            </h4>
+            <p class="text-sm text-stone-600 leading-loose text-left flex-grow font-medium">
+              <span class="inline-block">まずは受付に</span><span class="inline-block">お声掛けください。</span><br/><span class="inline-block">保険証を確認後、</span><span class="inline-block">現在の症状を</span><span class="inline-block">ご記入いただきます。</span>
+            </p>
+          </div>
+        </div>
+        <!-- Step 2 -->
+        <div class="bg-white rounded-2xl shadow-sm overflow-hidden flex flex-col h-full border border-stone-100 relative pt-6">
+          <div class="absolute top-0 left-0 w-full h-1.5 bg-emerald-700"></div>
+          <div class="absolute top-4 left-4 w-8 h-8 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center font-bold text-sm z-10 shadow-sm">2</div>
+          <div class="h-40 bg-stone-200 relative overflow-hidden mt-2 mx-4 rounded-xl">
+            <img src="OMG15101825019A1947_TP_V.jpg" alt="流れ 2" class="w-full h-full object-cover grayscale-[10%]" onerror="this.src='https://via.placeholder.com/400x300?text=Image'" />
+          </div>
+          <div class="p-5 flex-grow flex flex-col bg-white">
+            <h4 class="text-[16px] font-serif font-bold text-stone-900 mb-3 border-b border-stone-100 pb-3 tracking-wide flex items-center">
+               <i class="fa-solid fa-user-check mr-2 text-emerald-700"></i> 丁寧な問診と確認
+            </h4>
+            <p class="text-sm text-stone-600 leading-loose text-left flex-grow font-medium">
+              <span class="inline-block">患部の状態を</span><span class="inline-block">視診・触診等で確認し、</span><span class="inline-block">痛みの原因を探ります。</span><br/><span class="inline-block">必要な固定等の</span><span class="inline-block">処置も行います。</span>
+            </p>
+          </div>
+        </div>
+        <!-- Step 3 -->
+        <div class="bg-white rounded-2xl shadow-sm overflow-hidden flex flex-col h-full border border-stone-100 relative pt-6">
+          <div class="absolute top-0 left-0 w-full h-1.5 bg-emerald-700"></div>
+          <div class="absolute top-4 left-4 w-8 h-8 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center font-bold text-sm z-10 shadow-sm">3</div>
+          <div class="h-40 bg-stone-200 relative overflow-hidden mt-2 mx-4 rounded-xl">
+            <img src="OMG15101847019A2342_TP_V.jpg" alt="流れ 3" class="w-full h-full object-cover grayscale-[10%]" onerror="this.src='https://via.placeholder.com/400x300?text=Image'" />
+          </div>
+          <div class="p-5 flex-grow flex flex-col bg-white">
+            <h4 class="text-[16px] font-serif font-bold text-stone-900 mb-3 border-b border-stone-100 pb-3 tracking-wide flex items-center">
+               <i class="fa-solid fa-heart-pulse mr-2 text-emerald-700"></i> 手技によるアプローチ
+            </h4>
+            <p class="text-sm text-stone-600 leading-loose text-left flex-grow font-medium">
+              <span class="inline-block">状態を</span><span class="inline-block">分かりやすく説明し、</span><span class="inline-block">ご納得いただいた上で、</span><br/><span class="inline-block">手技による丁寧な施術を</span><span class="inline-block">行います。</span>
+            </p>
+          </div>
+        </div>
+        <!-- Step 4 -->
+        <div class="bg-white rounded-2xl shadow-sm overflow-hidden flex flex-col h-full border border-stone-100 relative pt-6">
+          <div class="absolute top-0 left-0 w-full h-1.5 bg-emerald-700"></div>
+          <div class="absolute top-4 left-4 w-8 h-8 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center font-bold text-sm z-10 shadow-sm">4</div>
+          <div class="h-40 bg-stone-200 relative overflow-hidden mt-2 mx-4 rounded-xl">
+            <img src="SNOW_20260226_051957_153.jpg" alt="流れ 4" class="w-full h-full object-cover grayscale-[10%]" onerror="this.src='https://via.placeholder.com/400x300?text=Image'" />
+          </div>
+          <div class="p-5 flex-grow flex flex-col bg-white">
+            <h4 class="text-[16px] font-serif font-bold text-stone-900 mb-3 border-b border-stone-100 pb-3 tracking-wide flex items-center">
+               <i class="fa-solid fa-handshake-angle mr-2 text-emerald-700"></i> 物理療法・アドバイス
+            </h4>
+            <p class="text-sm text-stone-600 leading-loose text-left flex-grow font-medium">
+              <span class="inline-block">症状に合わせ機器を用いた</span><span class="inline-block">物理療法を行い、</span><br/><span class="inline-block">日常生活での注意点や</span><span class="inline-block">今後の通院目安を</span><span class="inline-block">お伝えします。</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / FAQ -->
+    <section class="grid lg:grid-cols-2 gap-8 lg:gap-12">
+      <!-- 取扱業務 -->
+      <div class="bg-white rounded-3xl p-8 sm:p-10 shadow-sm border border-stone-100 h-full">
+         <div class="mb-8 flex items-center">
+           <div class="w-12 h-12 bg-emerald-50 text-emerald-700 rounded-full flex items-center justify-center mr-4 shrink-0">
+             <i class="fa-solid fa-shield-halved text-2xl"></i>
+           </div>
+           <h3 class="text-xl sm:text-2xl font-serif font-bold text-stone-900 tracking-widest">取扱業務・保険適用</h3>
+         </div>
+         
+         <div class="bg-emerald-50 rounded-xl p-5 mb-8 border border-emerald-100">
+           <p class="text-emerald-900 text-sm font-bold leading-relaxed">
+             <span class="inline-block">以下の急性のケガ・外傷には、</span><span class="inline-block text-amber-600">健康保険が適用されます。</span><br />
+             <span class="text-xs font-normal text-emerald-700 mt-1 inline-block">※ご来院の際は必ず保険証をご持参ください。</span>
+           </p>
+         </div>
+
+         <ul class="space-y-4 mb-8">
+            <li class="flex items-start text-sm sm:text-base text-stone-800 font-bold leading-relaxed bg-stone-50 p-4 rounded-lg">
+              <i class="fa-solid fa-chevron-right text-lg text-amber-500 mr-2 shrink-0 mt-1"></i>
+              <div>
+                骨折・脱臼<br/>
+                <span class="text-stone-500 text-xs font-normal">（応急手当以外は医師の同意が必要）</span>
+              </div>
+            </li>
+            <li class="flex items-center text-sm sm:text-base text-stone-800 font-bold leading-relaxed bg-stone-50 p-4 rounded-lg">
+              <i class="fa-solid fa-chevron-right text-lg text-amber-500 mr-2 shrink-0 mt-1"></i>
+              打撲（打ち身）
+            </li>
+            <li class="flex items-center text-sm sm:text-base text-stone-800 font-bold leading-relaxed bg-stone-50 p-4 rounded-lg">
+              <i class="fa-solid fa-chevron-right text-lg text-amber-500 mr-2 shrink-0 mt-1"></i>
+              捻挫（関節をひねった）
+            </li>
+            <li class="flex items-center text-sm sm:text-base text-stone-800 font-bold leading-relaxed bg-stone-50 p-4 rounded-lg">
+              <i class="fa-solid fa-chevron-right text-lg text-amber-500 mr-2 shrink-0 mt-1"></i>
+              挫傷（肉離れ）
+            </li>
+         </ul>
+         <p class="text-xs text-stone-500 font-medium leading-loose pt-4 border-t border-stone-100">
+           <span class="inline-block">※労働者災害補償保険（労災）、</span><span class="inline-block">自動車損害賠償責任保険（交通事故）も</span><span class="inline-block">取り扱っております。</span>
+         </p>
+      </div>
+      
+      <!-- FAQ -->
+      <div class="bg-stone-100 rounded-3xl p-8 sm:p-10 border border-stone-200 h-full">
+         <div class="mb-8 flex items-center">
+           <div class="w-12 h-12 bg-white text-stone-700 rounded-full flex items-center justify-center mr-4 shrink-0 shadow-sm">
+             <i class="fa-solid fa-circle-info text-2xl"></i>
+           </div>
+           <h3 class="text-xl sm:text-2xl font-serif font-bold text-stone-900 tracking-widest">よくあるご質問</h3>
+         </div>
+         
+         <div class="space-y-4">
+            <div class="bg-white rounded-2xl p-6 shadow-sm">
+              <h4 class="font-bold text-stone-900 text-sm sm:text-base mb-3 flex items-start leading-relaxed">
+                <span class="text-emerald-700 mr-2 font-serif text-xl leading-none mt-0">Q.</span>
+                <span class="inline-block">費用はどのくらい</span><span class="inline-block">かかりますか？</span>
+              </h4>
+              <p class="text-stone-600 text-sm font-medium pl-6 sm:pl-7 leading-loose">
+                <span class="inline-block">健康保険が適用される場合、</span><span class="inline-block">負担割合によりますが、</span>
+                <span class="inline-block font-bold text-emerald-800">初回は1,000円〜2,000円程度、2回目以降は数百円程度</span><span class="inline-block">になることが多いです。</span><br />
+                <span class="text-[11px] sm:text-xs text-stone-400 whitespace-nowrap tracking-tight">（※テーピング等の衛生材料費が別途かかる場合があります）</span>
+              </p>
+            </div>
+            <div class="bg-white rounded-2xl p-6 shadow-sm">
+              <h4 class="font-bold text-stone-900 text-sm sm:text-base mb-3 flex items-start leading-relaxed">
+                <span class="text-emerald-700 mr-2 font-serif text-xl leading-none mt-0">Q.</span>
+                予約は必要ですか？
+              </h4>
+              <p class="text-stone-600 text-sm font-medium pl-6 sm:pl-7 leading-loose">
+                <span class="inline-block font-bold text-emerald-800">ご予約は不要です。</span><br />
+                <span class="inline-block">ご来院いただいた順番に</span><span class="inline-block">ご案内いたしますので、</span>
+                <span class="inline-block">受付時間内に</span><span class="inline-block">直接お越しください。</span>
+              </p>
+            </div>
+            <div class="bg-white rounded-2xl p-6 shadow-sm">
+              <h4 class="font-bold text-stone-900 text-sm sm:text-base mb-3 flex items-start leading-relaxed">
+                <span class="text-emerald-700 mr-2 font-serif text-xl leading-none mt-0">Q.</span>
+                <span class="inline-block">どんな服装で行けば</span><span class="inline-block">いいですか？</span>
+              </h4>
+              <p class="text-stone-600 text-sm font-medium pl-6 sm:pl-7 leading-loose">
+                <span class="inline-block">患部を出しやすい、</span><span class="inline-block">動きやすい服装が理想です。</span><br />
+                <span class="inline-block">お着替え（ハーフパンツ等）の</span><span class="inline-block">ご用意もございます。</span>
+              </p>
+            </div>
+         </div>
+      </div>
+    </section>
+
+    <!-- Access & Schedule -->
+    <section id="hours" class="scroll-mt-24">
+      <div class="text-center mb-16">
+        <p class="text-amber-600 font-bold text-sm tracking-widest mb-3">ACCESS</p>
+        <h3 class="text-2xl md:text-3xl font-serif font-bold text-stone-900 tracking-widest">受付時間・アクセス</h3>
+        <div class="w-12 h-1 bg-emerald-800 mx-auto mt-6 rounded-full"></div>
+      </div>
+
+      <div class="flex flex-col lg:flex-row gap-8">
+        
+        <!-- Schedule -->
+        <div class="w-full lg:w-1/2 bg-white rounded-3xl border border-stone-200 flex flex-col shadow-sm overflow-hidden">
+          <div class="p-6 bg-stone-50 border-b border-stone-200 text-center">
+            <h3 class="text-lg font-serif font-bold text-stone-900 tracking-widest">受付時間・施術日</h3>
+          </div>
+          <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
+            <div>
+              <!-- PC向けテーブル -->
+              <table class="w-full text-center border-collapse mb-8 hidden sm:table border border-stone-200 rounded-lg overflow-hidden shadow-sm">
+                <thead>
+                  <tr class="bg-stone-100 text-stone-700">
+                    <th class="py-3 px-2 font-bold whitespace-nowrap w-1/4 border-r border-stone-200">時間</th>
+                    <th class="py-3 px-1 font-bold">月</th>
+                    <th class="py-3 px-1 font-bold">火</th>
+                    <th class="py-3 px-1 font-bold">水</th>
+                    <th class="py-3 px-1 font-bold">木</th>
+                    <th class="py-3 px-1 font-bold">金</th>
+                    <th class="py-3 px-1 font-bold text-emerald-600">土</th>
+                    <th class="py-3 px-1 font-bold text-amber-600">日/祝</th>
+                  </tr>
+                </thead>
+                <tbody class="text-stone-800 text-lg bg-white">
+                  <tr class="border-b border-stone-200">
+                    <td class="py-4 px-2 bg-stone-50 text-sm font-bold border-r border-stone-200">午前</td>
+                    <td class="py-4 font-bold text-emerald-800">●</td>
+                    <td class="py-4 font-bold text-emerald-800">●</td>
+                    <td class="py-4 font-bold text-emerald-800">●</td>
+                    <td class="py-4 font-bold text-emerald-800">●</td>
+                    <td class="py-4 font-bold text-emerald-800">●</td>
+                    <td class="py-4 font-bold text-emerald-600">▲</td>
+                    <td class="py-4 text-stone-300 font-bold">休</td>
+                  </tr>
+                  <tr>
+                    <td class="py-4 px-2 bg-stone-50 text-sm font-bold border-r border-stone-200">午後</td>
+                    <td class="py-4 font-bold text-emerald-800">●</td>
+                    <td class="py-4 font-bold text-emerald-800">●</td>
+                    <td class="py-4 font-bold text-emerald-800">●</td>
+                    <td class="py-4 font-bold text-emerald-800">●</td>
+                    <td class="py-4 font-bold text-emerald-800">●</td>
+                    <td class="py-4 text-stone-300 font-bold">休</td>
+                    <td class="py-4 text-stone-300 font-bold">休</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <!-- スマホ向けリスト -->
+              <div class="sm:hidden bg-stone-50 rounded-2xl p-6 border border-stone-200 mb-8 space-y-5 shadow-inner">
+                <div class="flex flex-col border-b border-stone-200 pb-4">
+                  <span class="font-bold text-stone-900 flex items-center mb-3 bg-white w-max px-3 py-1 rounded-full text-sm shadow-sm border border-stone-100">
+                    <i class="fa-regular fa-clock mr-2 text-emerald-700"></i>月曜〜金曜
+                  </span>
+                  <div class="text-sm text-stone-800 space-y-2 font-bold pl-2">
+                    <p>【午前】 8:30 〜 12:00</p>
+                    <p>【午後】15:00 〜 19:00</p>
+                  </div>
+                </div>
+                <div class="flex flex-col border-b border-stone-200 pb-4">
+                  <span class="font-bold text-emerald-800 flex items-center mb-3 bg-white w-max px-3 py-1 rounded-full text-sm shadow-sm border border-emerald-100">
+                    <i class="fa-regular fa-clock mr-2 text-emerald-700"></i>土曜日 <span class="text-xs ml-1 font-normal text-stone-500">(▲)</span>
+                  </span>
+                  <div class="text-sm text-stone-800 font-bold pl-2">
+                    <p>【午前のみ】 8:00 〜 12:00</p>
+                  </div>
+                </div>
+                <div class="flex flex-col pt-1">
+                  <span class="font-bold text-amber-700 flex items-center mb-2 bg-amber-50 w-max px-3 py-1 rounded-full text-sm">
+                    <i class="fa-solid fa-calendar-xmark mr-2 text-amber-600"></i>休診日
+                  </span>
+                  <div class="text-sm text-stone-700 font-bold pl-2">
+                    <p>日曜日、祝日</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center bg-emerald-50 rounded-2xl p-6 border border-emerald-100">
+              <p class="text-emerald-900 font-bold text-sm mb-4 tracking-widest">お電話でのご相談・お問い合わせ</p>
+              <a href="tel:0543672567" class="inline-flex items-center justify-center w-full sm:w-auto text-white font-bold bg-emerald-700 px-8 py-4 rounded-full hover:bg-emerald-600 transition-colors text-xl md:text-2xl tracking-widest shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+                <i class="fa-solid fa-phone text-lg md:text-xl mr-3"></i>
+                054-367-2567
+              </a>
+              <p class="text-xs text-emerald-800 mt-4 font-bold">※ご予約不要。直接お越しください。</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Access Info -->
+        <div class="w-full lg:w-1/2 flex flex-col h-full">
+          <div class="bg-white rounded-3xl p-6 md:p-8 border border-stone-200 shadow-sm flex flex-col h-full overflow-hidden">
+             <div class="flex items-center mb-6 pb-6 border-b border-stone-100">
+                <div class="w-14 h-14 flex items-center justify-center mr-4 border border-stone-200 p-1 rounded-lg">
+                  <img src="image~2.jpg" alt="上杉接骨院 ロゴ" class="w-full h-full object-cover rounded-sm" onerror="this.src='https://via.placeholder.com/100x100?text=Logo'" />
+                </div>
+                <div>
+                  <p class="text-xs font-bold text-emerald-700 tracking-widest mb-1">静岡市清水区</p>
+                  <h4 class="font-serif font-bold text-2xl text-stone-900 tracking-widest">上杉接骨院</h4>
+                </div>
+            </div>
+            
+            <div class="space-y-5 mb-8">
+              <div class="flex items-start bg-stone-50 p-4 rounded-xl border border-stone-100">
+                <i class="fa-solid fa-location-dot text-lg mr-3 text-emerald-700 shrink-0 mt-1"></i>
+                <p class="text-stone-800 text-sm sm:text-base leading-relaxed font-bold">
+                  〒424-0016<br />
+                  静岡県静岡市清水区天王西4-25
+                </p>
+              </div>
+              <div class="flex items-start bg-stone-50 p-4 rounded-xl border border-stone-100">
+                <i class="fa-solid fa-car text-lg mr-3 text-emerald-700 shrink-0 mt-1"></i>
+                <p class="text-stone-800 text-sm sm:text-base leading-relaxed font-medium">
+                  <span class="inline-block font-bold text-emerald-800">専用駐車場をご用意しております。</span><br />
+                  <span class="inline-block text-stone-600 text-sm mt-1">お車でのご来院も安心です。</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- Google Maps Embed -->
+            <div class="w-full h-64 sm:h-auto sm:flex-grow bg-stone-200 rounded-xl overflow-hidden border border-stone-200 relative min-h-[250px]">
+              <iframe
+                title="上杉接骨院 Googleマップ"
+                src="https://maps.google.com/maps?q=静岡県静岡市清水区天王西4-25 上杉接骨院&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style="border: 0; position: absolute; top: 0; left: 0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-stone-900 text-stone-300 py-16 mt-20 border-t-[12px] border-emerald-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-8 border-b border-stone-700 pb-12 mb-8">
+        <div class="text-center md:text-left flex items-center flex-col md:flex-row gap-6">
+          <div class="w-20 h-20 bg-white flex items-center justify-center p-1 rounded-xl">
+             <img src="image~2.jpg" alt="上杉接骨院 ロゴ" class="w-full h-full object-cover rounded-lg" onerror="this.src='https://via.placeholder.com/100x100?text=Logo'" />
+          </div>
+          <div>
+            <h2 class="text-2xl font-serif font-bold text-white tracking-widest mb-3">上杉接骨院</h2>
+            <p class="text-sm font-medium text-stone-400 mb-1 tracking-wider">〒424-0016 静岡県静岡市清水区天王西4-25</p>
+            <p class="text-sm font-bold text-stone-300 tracking-wider">電話: 054-367-2567</p>
+          </div>
+        </div>
+        <div class="text-center md:text-right">
+          <a href="tel:0543672567" class="inline-flex items-center justify-center border-2 border-stone-600 rounded-full px-8 py-3 hover:bg-stone-800 hover:border-stone-500 transition-colors mb-3 tracking-widest text-white font-bold">
+            <i class="fa-solid fa-phone mr-2"></i> 054-367-2567
+          </a>
+          <p class="text-xs text-amber-500 font-bold tracking-wide">
+            <span class="inline-block">※ご予約は不要です。</span><span class="inline-block">ご来院順にご案内いたします。</span>
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <p class="text-[11px] sm:text-xs text-stone-500 font-medium text-center md:text-left leading-relaxed max-w-2xl">
+          <span class="inline-block">本サイトは</span><span class="inline-block">柔道整復師法および</span>
+          <span class="inline-block">厚生労働省の</span><span class="inline-block">医療広告ガイドラインに準拠し、</span><br class="hidden sm:block" />
+          <span class="inline-block">誇大広告や誤認を招く表現を避け、</span><span class="inline-block">客観的で正確な情報の提供に</span><span class="inline-block">努めております。</span>
+        </p>
+        <p class="text-xs text-stone-400 font-serif tracking-widest shrink-0">
+          &copy; 2026 上杉接骨院
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Floating Action Button -->
+  <div class="md:hidden fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+    <a href="tel:0543672567" class="bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-emerald-500 hover:scale-105 active:scale-95 transition-all" aria-label="電話をかける">
+      <i class="fa-solid fa-phone text-2xl"></i>
+    </a>
+  </div>
+
+  <script>
+    // スクロール時にヘッダーに影をつける
+    const header = document.getElementById('main-header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        header.classList.add('shadow-md', 'py-2');
+        header.classList.remove('border-b-2', 'border-emerald-800', 'py-3');
+      } else {
+        header.classList.remove('shadow-md', 'py-2');
+        header.classList.add('border-b-2', 'border-emerald-800', 'py-3');
+      }
+    });
+  </script>
+</body>
+</html>
+
+
